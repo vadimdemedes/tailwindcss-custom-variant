@@ -1,6 +1,6 @@
 {
 	"name": "tailwindcss-custom-variant",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "Tailwind plugin for adding a custom variant",
 	"license": "MIT",
 	"repository": "vadimdemedes/tailwindcss-custom-variant",
