@@ -1,4 +1,4 @@
-# tailwind-custom-variant
+# tailwind-custom-variant [![test](https://github.com/vadimdemedes/tailwind-custom-variant/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/tailwind-custom-variant/actions/workflows/test.yml)
 
 > Tailwind plugin for adding a custom variant similar to the built-in `dark` variant
 
