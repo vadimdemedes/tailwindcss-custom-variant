@@ -1,0 +1,44 @@
+{
+	"name": "tailwind-custom-variant",
+	"version": "0.0.0",
+	"description": "Tailwind plugin for adding a custom variant",
+	"author": {
+		"name": "Vadim Demedes",
+		"email": "vadimdemedes@hey.com",
+		"url": "https://vadimdemedes.com"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"tailwind",
+		"tailwindcss",
+		"tailwind-plugin",
+		"tailwindcss-plugin",
+		"tailwind-variant",
+		"tailwindcss-variant"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@vdemedes/prettier-config": "^1.0.1",
+		"ava": "^3.15.0",
+		"postcss": "^8.3.11",
+		"prettier": "^2.4.1",
+		"strip-indent": "^3.0.0",
+		"tailwindcss": "^2.2.17",
+		"xo": "^0.45.0"
+	},
+	"peerDependencies": {
+		"tailwindcss": "^2"
+	},
+	"prettier": "@vdemedes/prettier-config",
+	"xo": {
+		"prettier": true,
+		"rules": {
+			"unicorn/prefer-module": "off"
+		}
+	}
+}
