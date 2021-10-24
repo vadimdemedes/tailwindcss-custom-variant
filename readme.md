@@ -26,7 +26,7 @@ module.exports = {
 In your HTML:
 
 ```html
-<div className="hawkins:bg-black hawkins:hover:bg-white"></div>
+<div class="hawkins:bg-black hawkins:hover:bg-white"></div>
 ```
 
 ## API
