@@ -26,8 +26,18 @@ module.exports = {
 In your HTML:
 
 ```html
-<div class="hawkins:bg-black hawkins:hover:bg-white"></div>
+<div class="hawkins:opacity-0"></div>
 ```
+
+Then the following CSS will be generated:
+
+```css
+.hawkins .hawkins\:bg-black {
+	opacity: 0;
+}
+```
+
+You can use this to add a custom variant like Tailwind's `dark` that rely on a certain class to be added above (e.g. to `<html>`).
 
 ## API
 
