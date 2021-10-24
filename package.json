@@ -1,9 +1,9 @@
 {
-	"name": "tailwind-custom-variant",
+	"name": "tailwindcss-custom-variant",
 	"version": "1.0.0",
 	"description": "Tailwind plugin for adding a custom variant",
 	"license": "MIT",
-	"repository": "vadimdemedes/tailwind-custom-variant",
+	"repository": "vadimdemedes/tailwindcss-custom-variant",
 	"author": {
 		"name": "Vadim Demedes",
 		"email": "vadimdemedes@hey.com",

@@ -6,7 +6,7 @@ const {
 } = require('tailwindcss/lib/util/pluginUtils');
 const prefixSelector = require('tailwindcss/lib/util/prefixSelector').default;
 
-const tailwindCustomVariant = name => {
+const customVariant = name => {
 	return plugin(({addVariant, config}) => {
 		addVariant(
 			name,
@@ -30,4 +30,4 @@ const tailwindCustomVariant = name => {
 	});
 };
 
-module.exports = tailwindCustomVariant;
+module.exports = customVariant;

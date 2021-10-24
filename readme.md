@@ -1,4 +1,4 @@
-# tailwind-custom-variant [![test](https://github.com/vadimdemedes/tailwind-custom-variant/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/tailwind-custom-variant/actions/workflows/test.yml)
+# tailwindcss-custom-variant [![test](https://github.com/vadimdemedes/tailwindcss-custom-variant/actions/workflows/test.yml/badge.svg)](https://github.com/vadimdemedes/tailwindcss-custom-variant/actions/workflows/test.yml)
 
 > Tailwind plugin for adding a custom variant similar to the built-in `dark` variant
 
@@ -7,7 +7,7 @@ Note that it only works in [JIT mode](https://tailwindcss.com/docs/just-in-time-
 ## Install
 
 ```sh
-npm install --save-dev tailwind-custom-variant
+npm install --save-dev tailwindcss-custom-variant
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save-dev tailwind-custom-variant
 In tailwind.config.js:
 
 ```js
-const customVariant = require('tailwind-custom-variant');
+const customVariant = require('tailwindcss-custom-variant');
 
 module.exports = {
 	mode: 'jit',
